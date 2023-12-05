@@ -38,7 +38,7 @@ This project was inspired by the course "Frontend Developer from the basis" by o
 ## Author
 Created by Szymon Brzozowski. 
 
-![Szymon](images/IMG_7526.jpg)
+![Szymon](public/IMG_7526.jpg)
 
 ## Available Scripts
 In the project directory, you can run:
