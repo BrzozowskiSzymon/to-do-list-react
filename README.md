@@ -16,6 +16,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Description
 This website provides to do list. Can also be used on a mobile phone. It is very easy to use. Enter the task to be performed in the first gap. Then press the "Dodaj zadanie" button. The task will be available at the bottom of the page. The task can be checked, deleted or hidden.
+Thanks to Local Storage/Cookies tasks are saved on the browers.
 
 ## Technologies Used
 - HTML 5
