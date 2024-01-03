@@ -26,6 +26,7 @@ Thanks to Local Storage/Cookies tasks are saved on the browers.
 - Create Eeact App
 - Webpack
 - Babel
+- Storage/Cookies
 
 ## Gif
 ![currencyConverter1](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXA3YjJoZ2Rpcjhtd3hkbnc1NDdpZG0ydTdxbTBnZTc2eXYzZG5hOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l8igLUC1PhtG21Sa86/giphy.gif)
