@@ -2,8 +2,6 @@
 The subject of the project is a To Do List running by the React. 
 <br>Here is a working live Demo -> [CLICK HERE](https://brzozowskiszymon.github.io/to-do-list-react/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Table of Contents
 * [Description](#description)
 * [Technologies Used](#technologies-used)
