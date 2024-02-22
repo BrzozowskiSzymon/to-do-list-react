@@ -13,7 +13,7 @@ export const Items = styled.li`
     grid-gap: 10px;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid ${({ theme }) => theme.color.alto};
     word-break: break-word;
 
     ${({ hidden }) => hidden && css`
@@ -31,25 +31,25 @@ export const Content = styled.span`
 export const Button = styled.button`
     width: 30px;
     height: 30px;
-    background-color: green;
+    background-color: ${({ theme }) => theme.color.green};
     color:white;
     border: none;
     transition: background 0.3s;
     padding: 0;
 
     ${({toggleDone}) => toggleDone && css`
-        background: hsl(120, 61%, 34%);
-
-        &:hover {
-            background-color: hsl(120, 61%, 39%);
-        }
+        background: ${({ theme }) => theme.color.green};
     `}
 
     ${({remove}) => remove && css`
-        background-color: rgb(212, 19, 19);
-
-        &:hover {
-            background-color: rgb(230, 11, 11);
-        }
+        background: ${({ theme }) => theme.color.green};
     `}
+
+    &:hover {
+        filter: brightness(110%);
+    }
+
+    &:active {
+        filter: brightness(120%);
+    }
 `;
