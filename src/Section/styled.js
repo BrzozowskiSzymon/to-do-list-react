@@ -15,7 +15,7 @@ export const SectionHeader = styled.header`
     align-items: center;
     padding: 20px;
 
-    @media (max-width: ${({ theme }) => theme.brakpoint.mobileMax}px) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         grid-template-columns: 1fr;
     }
 `;

@@ -15,7 +15,7 @@ export const Input = styled.input`
     border: 1px solid ${({ theme }) => theme.color.alto};
 
     &:focus {
-        border: 2px solid #000000;
+        border: 2px solid ${({ theme }) => theme.color.black};
     }
 `;
 
