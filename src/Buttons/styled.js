@@ -1,11 +1,11 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Wrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
 `;
 
-export const ButtonsButton = styled.button`
+export const Button = styled.button`
     background: transparent;
     color: ${({ theme }) => theme.color.teal};
     border: none;

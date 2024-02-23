@@ -6,7 +6,7 @@ export const List = styled.ul`
     padding: 0;
 `;
 
-export const Items = styled.li`
+export const Item = styled.li`
     list-style-type: none;
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -42,7 +42,7 @@ export const Button = styled.button`
     `}
 
     ${({remove}) => remove && css`
-        background: ${({ theme }) => theme.color.green};
+        background: ${({ theme }) => theme.color.crimson};
     `}
 
     &:hover {
